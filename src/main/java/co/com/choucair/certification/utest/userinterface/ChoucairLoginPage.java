@@ -24,10 +24,6 @@ public class ChoucairLoginPage extends PageObject {
             .located(By.xpath("//div[@class = 'form-group col-xs-12 text-right']/a"));
     public static final Target NEXT_DEVICES = Target.the("button that gives to next devices")
             .located(By.xpath("//div[@class='pull-right next-step']/a"));
-    /*
-    public static final Target MOBILE_DEVICE = Target.the("button that gives to list of mobile devices")
-            .located(By.xpath("//div[@class='ui-select-match']/span/span[@class='ui-select-placeholder text-muted ng-hide']"));
-     */
     public static final Target NEXT_LAST_DEVICES = Target.the("button that gives to next devices")
             .located(By.xpath("//div[@class = 'pull-right next-step']/a"));
     public static final Target PASSWORD = Target.the("text box to key the password")

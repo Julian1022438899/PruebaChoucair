@@ -34,7 +34,6 @@ public class OpenUp implements Task {
                 Click.on(ChoucairLoginPage.TERM_OF_USE),
                 Click.on(ChoucairLoginPage.PRIVACY_SETTING),
                 Click.on(ChoucairLoginPage.COMPLETE_SETUP)
-
                 );
     }
 }
